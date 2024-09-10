@@ -8,7 +8,7 @@ if (process.env.REACT_APP_ZIPY_KEY) {
   init(process.env.REACT_APP_ZIPY_KEY);
 }
 
-const root = createRoot(document.getElementById("root"));
+const root = createRoot(document.getElementById("react-target"));
 root.render(
   <React.StrictMode>
     <App />
